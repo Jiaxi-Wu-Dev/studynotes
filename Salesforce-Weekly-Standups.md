@@ -49,3 +49,41 @@ Event - kinda like salesforce weekly meetings, its an event
 MQL = Marketing Qualified Leads
 SQL = Sales Qualified Leads
 MQL might look good on paper, e.g. have the right job title or demographic data, so the marketing team adds them to a campaign. But when passed to Sales, they need to requalify them to see. ifthey're actually interested.
+
+**Chatter**
+Goals
+
+    -Post to your profile feed and other feeds.
+    -Get answers to your questions.
+    -Create and respond to Chatter polls.
+
+Customize Your Chatter Experience
+
+    -Respond to a post.
+    -Keep up-to-date by following people and records.
+    -Get people’s attention using mentions.
+    -Understand who sees your Chatter content.
+
+You post on your own profile. Who can see this post?
+
+the original post, plus your added remarks, are posted to your profile. They also appear in the What I Follow feed of anyone who’s following you.
+
+You post on a colleague's profile. Who can see this post?
+
+You're sharing a post with lots of comments and two file attachments. What is shared?
+
+What is the result of following someone?
+
+When you mention someone in a group they don't have access to, the mentioned person:
+
+Week 2
+Trailmix Learning Objectives
+
+    Opportunity Management
+    Leads and Opportunities for Lightning Exp.
+    Customize a Sales Path for Your Team
+    Products, Quotes, & Contracts
+    Service Cloud For Lightning Experience
+    Create a Process for Managing Support Cases
+    Chatter for Lightning Experience
+    Sales Productivity
