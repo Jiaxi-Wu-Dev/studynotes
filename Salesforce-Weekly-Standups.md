@@ -87,3 +87,34 @@ Trailmix Learning Objectives
     Create a Process for Managing Support Cases
     Chatter for Lightning Experience
     Sales Productivity
+
+Week 3
+Salesforce Fundamentals
+
+User Setup and Management
+You're the admin, and the rest of the company are your users. This is how you'll get them set up correctly in Salesforce.
+
+Add New Users
+
+    Describe a user account and the type of information it contains.
+    Add a single user or multiple users.
+    Use the Salesforce mobile app to manage users on the go.
+
+Users - A user is anyone who logs in to Salesforce. Users are employees at your company, such as sales reps, managers, and IT specialists, who need access to the company's records.
+
+The user account identifies the user, and the user account settings determine what features and records the user can access. Each user account contains at least the following:
+
+    Username
+    Email Address
+    User's First and Last Name
+    License
+    Profile
+    Role (optional)
+
+To view and manage the users in your organization, from **Setup**, enter Users in the Quick Find box, then select Users. The user list shows all the users in your organization. From the list, you can:
+
+    Create one or more users.
+    Reset passwords for selected users.
+    View a user's detail page by clicking the name, alias, or username.
+    Edit a user's details.
+    Log in as any user if the system permission is enabled or if the user has granted you system administrator login access.
