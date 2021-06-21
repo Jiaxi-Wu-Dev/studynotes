@@ -111,6 +111,8 @@ The user account identifies the user, and the user account settings determine wh
     Profile
     Role (optional)
 
+The username must be formatted like an email address and must be unique across all Salesforce organizations. It can be the user's email address, so long as it is unique.
+
 To view and manage the users in your organization, from **Setup**, enter Users in the Quick Find box, then select Users. The user list shows all the users in your organization. From the list, you can:
 
     Create one or more users.
@@ -118,3 +120,28 @@ To view and manage the users in your organization, from **Setup**, enter Users i
     View a user's detail page by clicking the name, alias, or username.
     Edit a user's details.
     Log in as any user if the system permission is enabled or if the user has granted you system administrator login access.
+
+User Licenses
+A user license determines which features the user can access in Salesforce.
+
+Profiles
+Profiles determine what users can do in Salesforce. They come with a set of permissions which grant access to particular objects, fields, tabs, and records.
+
+Roles
+Roles determine what users can see in Salesforce based on where they are located in the role hierarchy.
+
+If a users account is compromised, go to the compromised user’s profile page, then tap and select Freeze.
+
+**Control What Your Users Can Access**
+
+    Describe the difference between object and field level security
+    Describe how to set org–wide default sharing settings
+
+**Organization–wide default**s specify the default level of access users have to each others' records.
+
+**Role hierarchies** open up access to those higher in the hierarchy so they inherit access to all records owned by users below them in the hierarchy.
+
+**Sharing rules** enable you to make automatic exceptions to organization–wide defaults for particular groups of users, to give them access to records they don't own or can't normally see.
+
+Review:
+Control What Your Users Can Access
