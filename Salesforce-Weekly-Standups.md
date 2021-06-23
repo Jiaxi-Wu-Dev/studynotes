@@ -145,3 +145,56 @@ If a users account is compromised, go to the compromised user’s profile page, 
 
 Review:
 Control What Your Users Can Access
+
+**Understand How Licenses Work**
+
+    Explain what a Salesforce license is.
+    Define platform, user, and permission set licenses.
+    Describe how platform, user, and permission set licenses relate to editions and add-ons.
+
+a **Salesforce license** is similar to a lease agreement between a property manager and a tenant. A Salesforce license, or more precisely, a license definition, is a metadata description of the Salesforce features and services that are available to your org.
+
+**Provisioning** is the process that Salesforce administers to activate your licenses and enable functionality in your org. When your org is provisioned, it’s like a tenant shaking hands with the property manager, making the initial lease payment, and getting the office keys. Once your org is provisioned, you can get to work with Salesforce!
+
+It’s worth noting that **provisioning** applies only to production orgs
+
+![](/assets/images/2021-06-21-23-09-25.png)
+
+Add-on
+An optional extension for an org to supplement the functionality provided by the edition. An org can have multiple add-ons. An add-on includes one or more permission set, platform, or user licenses, or a combination of those.
+Demo org
+A sample org used to demonstrate Salesforce functionality to prospective customers.
+Developer org
+A free, non-expiring org that a developer can use to develop, test, and deploy applications.
+Edition
+A bundle of features and services that comprise the functionality necessary to activate an org. Salesforce offers several editions, which provide varying levels of functionality.
+License
+The contractual agreement between Salesforce and a specific customer, which includes a metadata description of the functionality for the associated Salesforce product that is available to the customer org.
+License definition
+A metadata description of the functionality for a given Salesforce product that is available to a customer org.
+Permission
+A metadata switch, or setting, that configures a particular aspect of product functionality. In general, permissions control access to features, such as Lightning Experience or Chatter, and certain aspects of security. Compare to preference.
+Permission set license
+A license that defines user-level functionality, which can be assigned to supplement the functionality in a user license. A user can be assigned multiple permission set licenses. Note that a permission set license is different from a permission set, defined in the next unit.
+Platform license
+A license with metadata switches, or settings, that control functionality for the org as a whole.
+Preference
+A metadata switch, or setting, that configures a particular aspect of product functionality. In general, preferences define settings that customers can configure, such as time zone or password options. Compare to permission.
+Product license
+An edition or add-on, which bundles together one or more settings licenses and other metadata in a product that the customer can purchase.
+Production org
+Customer’s active org where users access and work with live data.
+Provisioning
+The process of activating licenses and enabling functionality in an org.
+Sandbox org
+A replica of a production org that serves as a staging environment where the customer can test changes without affecting the production org or users.
+Scratch org
+A short-lived deployment of Salesforce that enables developers to emulate different Salesforce editions, features, and preferences. Each scratch org is automatically deleted after 7 days.
+Setting
+A metadata switch in a license that configures a particular aspect of product functionality.
+Settings license
+A permission set license, platform license, or user license that includes settings, metadata switches that configure aspects of product functionality.
+Trial org
+A free org with sample data, designed for prospective customers to evaluate Salesforce before purchasing.
+User license
+A license that defines user-level functionality. Each user is assigned one user license.
