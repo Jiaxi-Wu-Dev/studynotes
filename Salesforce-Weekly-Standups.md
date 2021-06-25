@@ -198,3 +198,53 @@ Trial org
 A free org with sample data, designed for prospective customers to evaluate Salesforce before purchasing.
 User license
 A license that defines user-level functionality. Each user is assigned one user license.
+
+**Keep Up With Upgrades and Add ons**
+
+    Define edition upgrades and add-ons.
+    Explain why an admin needs to update profiles and permission sets after the customer org purchases an upgrade or add-on.
+    Explain how a customer can keep their sandbox orgs in sync with their production org.
+
+When you first sign up for Salesforce you choose the edition that best fits your business needs at the time.
+
+A edition upgrade happens when your org transitions to a higher Salesforce edition.
+
+An addon supplements your orgs with additional features or services without changing the dition
+
+When you purchase an edition upgrade or an add-on, your org gets one or more new platform, user, or permission set licenses, or possibly some combination of each.
+
+When you make any changes to production org licenses, you must push changes to the sandbox orgs if you want your test environment to mirror your production environment.
+
+In many cases, you can refresh the sandbox org to make sure that its licensing information matches the production org’s.
+
+Learn About Regional Settings
+Describe how configuring your company settings affect your end users.
+Translate the company’s business requirements into your company settings.
+Implement changes to your company information and fiscal year.
+Update your personal locale settings.
+
+Salesforce includes 4 automation tools
+Salesforce flow
+approval process
+process builder
+workflow rules
+
+get javascript superbadge
+know the event loop
+variable hoisting
+![](/assets/images/2021-06-23-14-18-27.png)
+
+Discover Multiple Currency Settings
+
+    Add new currencies to your org.
+    Summarize the impact of using single currency versus multiple currencies.
+    Set up Advanced Currency Management.
+    Edit conversion rates, and enable users to select personal currencies.
+
+Advanced Currency Management for currency fields on opportunities and opportunity products lets you manage exchange rate start dates.
+
+Once multiple currencies is enabled you also:
+
+    Activate additional currencies and optionally select a new corporate currency.
+    Ensure users have correct personal currencies.
+    Make sure users use the correct currency when creating records.
