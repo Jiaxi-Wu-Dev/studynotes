@@ -248,3 +248,18 @@ Once multiple currencies is enabled you also:
     Activate additional currencies and optionally select a new corporate currency.
     Ensure users have correct personal currencies.
     Make sure users use the correct currency when creating records.
+
+What is a lightning App
+An app is a collection of items that work together to serve a particular function. In Lightning Experience, Lightning apps give your users access to sets of objects, tabs, and other items all in one convenient bundle in the navigation bar.
+
+Use the Lightning Experience App Manager to:
+
+    View all your Salesforce apps.
+    Create Lightning apps or connected apps (1).
+    See which apps are visible in Lightning Experience (2).
+    Easily manage apps (3).
+
+Week 4
+Security
+
+run health check
