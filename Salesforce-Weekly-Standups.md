@@ -263,3 +263,10 @@ Week 4
 Security
 
 run health check
+
+Get To Know Your Salesforce Identity Users
+
+    Describe how employees benefit from Salesforce Identity.
+    Describe how customers and partners benefit from Salesforce Identity.
+    Describe what’s important when setting up user registration.
+    Know which features of Salesforce Identity benefit employees, which benefit partners and customers, and which benefit both.
