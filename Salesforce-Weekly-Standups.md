@@ -270,3 +270,30 @@ Get To Know Your Salesforce Identity Users
     Describe how customers and partners benefit from Salesforce Identity.
     Describe what’s important when setting up user registration.
     Know which features of Salesforce Identity benefit employees, which benefit partners and customers, and which benefit both.
+
+Salesforce Identity
+
+Learn the Language of Identity
+Identify the industry standards used for **identity and access management**.
+SAML
+OAuth 2.0
+OpenID Connect
+
+    Know how SAML is related to XML.
+        SAML is an XML-based protocol
+
+    Know the difference between an identity provider and service provider.
+        In the process of authenticating users, SAML exchanges identity information between the holder of the information, called an identity provider (IdP), and the desired service, called a service provider.
+
+**SAML** - When you want users to move seamlessly between Salesforce orgs and applications without logging in repeatedly, you set up single sign-on (SSO). Security Assertion Markup Language (SAML) is the protocol that makes it happen.
+
+What’s the difference between an identity provider and a service provider? Basically, the identity provider is the one authenticating the user. The service provider is asking for the authenticated identity. We’ll talk more about identity and service providers later on in this unit.
+
+**SAML** is an XML-based protocol, which means that the packages of information being exchanged are written in XML. XML is supposed to be (almost) human-readable so that you can get some idea of what’s going on
+
+**OAuth 2.0** is an open protocol used to allow secure data sharing between applications. The user works in one app but sees the data from another.
+
+Examples of identity providers
+Microsoft’s Active Directory Federation Services (ADFS), Ping Identity’s PingFederate, open-source Shibboleth, or ForgeRock’s OpenAM
+
+**OpenID** Connect protocol adds an authentication layer on top of OAuth 2.0 to enable secure exchange of user information. Like SAML, OpenID Connect sends identity information from one service to another. Unlike SAML, OpenID Connect is built for today’s world of social networks.
