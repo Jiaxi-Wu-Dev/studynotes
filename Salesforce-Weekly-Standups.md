@@ -297,3 +297,65 @@ Examples of identity providers
 Microsoft’s Active Directory Federation Services (ADFS), Ping Identity’s PingFederate, open-source Shibboleth, or ForgeRock’s OpenAM
 
 **OpenID** Connect protocol adds an authentication layer on top of OAuth 2.0 to enable secure exchange of user information. Like SAML, OpenID Connect sends identity information from one service to another. Unlike SAML, OpenID Connect is built for today’s world of social networks.
+
+Customize Your Login Process with My Domain
+Explain the benefits of My Domain.
+Detail how My Domain lets you control how users access your Salesforce org.
+Customize your login page.
+
+Salesforce MyDomain
+My Domain is sort of like creating your own empire within the Salesforce universe. It’s a Salesforce Identity feature that lets you personalize your Salesforce org by creating a subdomain (empire) within the Salesforce domain (universe)
+
+Salesforce requires you to have a My Domain in place to:
+
+    Work in multiple Salesforce orgs in the same browser
+    Set up single sign-on (SSO) with third-party identity vendors
+    Set up authentication providers, such as Google and Facebook, so that your users can log in to your Salesforce org with their social account credentials
+    Use Lightning components in Lightning component tabs, Lightning page, the Lightning App Builder, or standalone apps
+    Use Financial Services Cloud, Health Cloud, or Work.com
+
+Redirect to the same page within the domain—Let users continue to access your org from your instanced Salesforce URLs as well as your branded My Domain URLs. This option might be convenient, but it won’t require your users to access your branded org.
+Redirect with a warning to the same page within the domain—Remind users to use your My Domain URLs before redirecting them to your org. This can help change user behavior so users transition to the branded URLs. For the Jedeyetech scenario purposes, this sounds like the one we want.
+Don't redirect (recommended)—Require users to use your My Domain login URL when accessing your org. There is an expectation with this setting that your users have transitioned to using the new My Domain URLs.
+
+Set Up Single Sign-On for Your Internal Users
+
+Learning Objectives
+After completing this module, you’ll be able to:
+
+    Create a Federation ID.
+        From Setup, enter Users in the Quick Find box, then select Users.
+        Click Edit next to Sia’s name.
+        Under Single Sign On Information, enter the Federation ID: sia@jedeye-tech.com. Tip : A Federation ID must be unique for each user in an org. That’s why the username is handy. But if the user belongs to multiple orgs, use the same Federation ID for the user in each org. SSO Settings Federation ID
+        Click save
+    Set up single sign-on from a third-party identity provider.
+        use SAML
+    Become familiar with the tools to troubleshoot SAML requests.
+
+Restrict Login Hours and IP Ranges
+Learning Objectives
+
+In this project, you’ll:
+
+    Restrict when and where users can log in to an organization.
+        Click the Setup gear Setup icon and select Setup.
+        Enter Profiles in the Quick Find box, and select Profiles.
+        Click Custom: Support Profile.
+        Under Login Hours click Edit and set up the schedule.
+    Determine the levels of access users have to objects.
+    Set up a data access model using the role hierarchy, sharing, and teams.
+    Control the levels of access users have to fields.
+
+    Darleny - marketing analytics/real estate - working in sales, marketing analytics is growing fast
+
+    fatmata jalloh - never did networking, wants to do accounting, left their family and moved across the world
+
+    gus rosario - graduated from hunter college - cyber security
+
+    jessica vera -executive assistant, interested in HR - graduating from college, looking for internships
+
+    jessie choong - born in malaysia, science background, came to nyc 3 years ago, supply chain/logistics/operations
+
+    Kam bong Chum - learning sql wants to get certificate
+
+    Leephenson - baruch economics, deep dive on consulting
