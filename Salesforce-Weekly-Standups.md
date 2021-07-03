@@ -359,3 +359,5 @@ In this project, you’ll:
     Kam bong Chum - learning sql wants to get certificate
 
     Leephenson - baruch economics, deep dive on consulting
+
+    email everyone
