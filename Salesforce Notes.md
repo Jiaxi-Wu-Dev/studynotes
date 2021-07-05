@@ -374,3 +374,27 @@ You can set object permissions with profiles or permission sets. A user can have
     Permission sets grant additional permissions and access settings to a user.
 
 Use profiles to grant the minimum permissions and settings that all users of a particular type need. Then use permission sets to grant more permissions as needed. The combination of profiles and permission sets gives you a great deal of flexibility in specifying object-level access.
+
+Profiles usually match up with a user's job function (for example, system administrator, recruiter, or hiring manager), but you can have profiles for anything that makes sense for your Salesforce org. A profile can be assigned to many users, but a user can have only one profile at a time.
+
+A **permission** set is a collection of settings and permissions that give users access to various tools and functions. The settings and permissions in permission sets are also found in profiles, but permission sets extend users’ functional access without changing their profiles.
+
+Optimal way to configure object permissions for the Recruiting app is like this:
+
+    Create two profiles: Recruiters and Standard Employees.
+    Create two permission sets: Hiring Managers and Interviewers.
+    Assign the Standard Employee profile to hiring managers and interviewers, and then grant the appropriate permission set for their function.
+
+Week 5
+Understand Custom & Standard Objects
+Describe the perks of using objects on the Salesforce platform.
+Explain the difference between standard objects and custom objects.
+List the types of custom fields an object can have.
+
+data model. A data model is more or less what it sounds like. It’s a way to model what database tables look like in a way that makes sense to humans.
+
+we think about database tables as objects, we think about columns as fields, and rows as records. So instead of an account spreadsheet or table, we have an Account object with fields and a bunch of identically structured records.
+
+Standard objects are objects that are included with Salesforce. Common business objects like Account, Contact, Lead, and Opportunity are all standard objects.
+
+Custom objects are objects that you create to store information that’s specific to your company or industry. For DreamHouse, D’Angelo wants to build a custom Property object that stores information about the homes his company is selling.
