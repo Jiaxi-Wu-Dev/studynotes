@@ -398,3 +398,33 @@ we think about database tables as objects, we think about columns as fields, and
 Standard objects are objects that are included with Salesforce. Common business objects like Account, Contact, Lead, and Opportunity are all standard objects.
 
 Custom objects are objects that you create to store information that’s specific to your company or industry. For DreamHouse, D’Angelo wants to build a custom Property object that stores information about the homes his company is selling.
+
+![](/assets/images/2021-07-05-16-09-55.png)
+
+Checkbox—for fields that are a simple “yes” or “no,” a checkbox field is what you want.
+Date or DateTime—these field types represent dates or date/time combinations, like birthdays or sales milestones.
+Formula—this special field type holds a value that’s automatically calculated based on a formula that you write. For example, D’Angelocan write a formula field that automatically calculates a real estate agent’s commission on a home sale.
+
+Create Object Relationships
+Define the different types of object relationships and their typical use cases.
+Lookup Relationships, Master-detail relationships
+Create or modify a lookup relationship.
+Create or modify a master-detail relationship.
+
+Object relationships are a special field type that connects two objects together.
+
+There are two main types of object relationships: lookup and master-detail.
+
+Lookup Relationships
+
+In our Account to Contact example above, the relationship between the two objects is a lookup relationship. A lookup relationship essentially links two objects together so that you can “look up” one object from the related items on another object.
+
+Master-Detail Relationships
+
+While lookup relationships are fairly casual, master-detail relationships are a bit tighter. In this type of relationship, one object is the master and another is the detail. The master object controls certain behaviors of the detail object, like who can view the detail’s data.
+
+Work with Schema Builder
+Describe the advantages of using Schema Builder for data modeling.
+Use Schema Builder to create a schema for a given object model.
+Use Schema Builder to add a custom object to your schema.
+Use Schema Builder to add a custom field to your schema.
