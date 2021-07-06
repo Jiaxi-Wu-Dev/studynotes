@@ -423,8 +423,14 @@ Master-Detail Relationships
 
 While lookup relationships are fairly casual, master-detail relationships are a bit tighter. In this type of relationship, one object is the master and another is the detail. The master object controls certain behaviors of the detail object, like who can view the detail’s data.
 
-Work with Schema Builder
-Describe the advantages of using Schema Builder for data modeling.
-Use Schema Builder to create a schema for a given object model.
-Use Schema Builder to add a custom object to your schema.
-Use Schema Builder to add a custom field to your schema.
+Create a Custom Object
+Explain how to optimize your org with standard and custom objects.
+Create a custom object.
+
+Recognizing that what’s most important to you and your business might not be the same for another business, Salesforce offers a way to customize your data through standard and custom objects.
+
+Objects are the way you store your records in Salesforce. They are basically a container for spreadsheet data, account details, customer contacts, location and regional info, tracking status, and more, but are easier on the eyes and more customizable than a database. The idea is that you track everything related to your business in one place.
+
+These standard objects are lead, opportunity, account, and contact.
+
+Custom objects can be anything—you define the object and you define the type info it contains. You’re a real estate agent and need to track each home you’re selling? Create a custom object called Property that shows which homes are for sale, pending, in the offer stage, sold, and so on. You’re a recruiter? Create an object called Job Postings to track open positions. Department of Energy? A new object for your home inspections called Energy Audit.
