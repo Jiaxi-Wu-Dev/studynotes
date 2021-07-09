@@ -434,3 +434,6 @@ Objects are the way you store your records in Salesforce. They are basically a c
 These standard objects are lead, opportunity, account, and contact.
 
 Custom objects can be anything—you define the object and you define the type info it contains. You’re a real estate agent and need to track each home you’re selling? Create a custom object called Property that shows which homes are for sale, pending, in the offer stage, sold, and so on. You’re a recruiter? Create an object called Job Postings to track open positions. Department of Energy? A new object for your home inspections called Energy Audit.
+
+Create Lookup Filters
+Lookup filters limit the records available in the lookup. A lookup filter can reference other fields on the same record (source); fields on the records of the lookup object (target); fields on the user's record, profile, and role; and fields on records directly related to the target object.
