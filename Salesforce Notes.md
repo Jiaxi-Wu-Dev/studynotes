@@ -437,3 +437,16 @@ Custom objects can be anything—you define the object and you define the type i
 
 Create Lookup Filters
 Lookup filters limit the records available in the lookup. A lookup filter can reference other fields on the same record (source); fields on the records of the lookup object (target); fields on the user's record, profile, and role; and fields on records directly related to the target object.
+
+Manage Your Picklist Values
+Manage values for picklists.
+Use formulas to define picklist values dynamically.
+Explain what happens to existing data as you change picklist values.
+
+What does “Indexed” mean? The page of Fields & Relationships identifies some fields, including some picklists, as indexed and you’re probably wondering what that means. An indexed field is stored in the database in a way that supports quick retrieval. This optimizes report generation, list views, and other requests…sometimes.
+
+    New: Create a new value.
+    Reorder: Rearrange the existing values.
+    Replace: Replace an existing value. You can replace an existing value with a new value, one of the other values, or a blank value. If you replace an existing value with a blank value, existing records will not display the value anymore.
+    Printable View: See all of your values at once. This is a helpful view while you set up a dependent picklist.
+    Chart Colors: Customize the appearance of values on charts and reports.
