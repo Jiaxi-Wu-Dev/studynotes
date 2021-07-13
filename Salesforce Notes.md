@@ -450,3 +450,5 @@ What does “Indexed” mean? The page of Fields & Relationships identifies some
     Replace: Replace an existing value. You can replace an existing value with a new value, one of the other values, or a blank value. If you replace an existing value with a blank value, existing records will not display the value anymore.
     Printable View: See all of your values at once. This is a helpful view while you set up a dependent picklist.
     Chart Colors: Customize the appearance of values on charts and reports.
+
+A Lightning page is a custom layout that lets you design pages for use in the Salesforce mobile app or Lightning Experience. A Lightning page is composed of regions that contain components.
