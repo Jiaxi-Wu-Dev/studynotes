@@ -455,3 +455,10 @@ A Lightning page is a custom layout that lets you design pages for use in the Sa
 
 Week 6
 ![](/assets/images/2021-07-14-22-04-51.png)
+![](/assets/images/2021-07-14-22-22-17.png)
+
+Bad data is linked to lost revenue, missing insights, and reputational damage
+
+Good data, on the other hand, is the cat’s pajamas. It lets your company do things fast and accurately, like prospect and target new customers, identify cross-sell opportunities, and plan territories.
+
+Workflow rules are the magic wand in your Salesforce implementation act. Workflow rules let you automate standard internal procedures and processes to save time across your company. You set up workflow rules so that leads are routed to the nearest rep. You do the same to assign service requests, too. Now Gelato’s reps can focus their time on growing business—not assigning records.
