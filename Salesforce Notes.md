@@ -452,3 +452,6 @@ What does “Indexed” mean? The page of Fields & Relationships identifies some
     Chart Colors: Customize the appearance of values on charts and reports.
 
 A Lightning page is a custom layout that lets you design pages for use in the Salesforce mobile app or Lightning Experience. A Lightning page is composed of regions that contain components.
+
+Week 6
+![](/assets/images/2021-07-14-22-04-51.png)
