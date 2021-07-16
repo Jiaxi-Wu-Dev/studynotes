@@ -482,3 +482,14 @@ Use Data Loader When:
     Data Export Service—an in-browser service, accessible through the Setup menu. It allows you to export data manually once every 7 days (for weekly export) or 29 days (for monthly export). You can also export data automatically at weekly or monthly intervals. Weekly exports are available in Enterprise, Performance, and Unlimited Editions. In Professional Edition and Developer Edition, you can generate backup files only every 29 days, or automatically at monthly intervals only.
 
     Data Loader—a client application that you must install separately. It can be operated either through the user interface or the command line. The latter option is useful if you want to automate the export process, or use APIs to integrate with another system.
+
+Duplicate Management. It’s available to and free of charge for Professional, Enterprise, and Unlimited editions.
+Duplicate Management helps you and your sales teams quickly and easily manage duplicates for:
+
+    Business accounts
+    Contacts
+    Leads
+    Person accounts
+    Records created from custom objects
+
+It’s highly configurable, and offers you far more than just exact detection and matching logic. Our standard matching detects potential duplicate records based on exact matches, such as two contacts with the same name, Margaret Chan.
