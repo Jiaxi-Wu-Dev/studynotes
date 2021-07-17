@@ -493,3 +493,12 @@ Duplicate Management helps you and your sales teams quickly and easily manage du
     Records created from custom objects
 
 It’s highly configurable, and offers you far more than just exact detection and matching logic. Our standard matching detects potential duplicate records based on exact matches, such as two contacts with the same name, Margaret Chan.
+
+Benefits of Reports and Dashboards
+
+You and your sales and marketing managers benefit from reports and dashboards in these ways:
+
+    Visibility into data—reports and dashboards give you easy access to key data insights, which helps managers make better decisions.
+    Time savings—you don't have time to manually dig through all your many objects, records, and fields to pull together answers to your manager's questions. Reports give you a quick way to answer both simple or complex questions.
+
+    Flexibility—with reports and dashboards you can pull data from all your standard and custom objects and fields. You have many powerful options for tailoring reports and dashboards to the specific needs of your end users.
