@@ -502,3 +502,14 @@ You and your sales and marketing managers benefit from reports and dashboards in
     Time savings—you don't have time to manually dig through all your many objects, records, and fields to pull together answers to your manager's questions. Reports give you a quick way to answer both simple or complex questions.
 
     Flexibility—with reports and dashboards you can pull data from all your standard and custom objects and fields. You have many powerful options for tailoring reports and dashboards to the specific needs of your end users.
+
+Key Terms This Week 📚
+
+    Data Loader
+    Data Import Wizard
+    Validation Rule
+    Duplicate/ Matching Rules
+    Matrix Report
+    Summary Report
+    Report Folder
+    Report Type
