@@ -542,3 +542,5 @@ Process Builder contains some of the same functionality that Flow Builder does. 
     A record is created
     A record is updated
     A platform event occurs
+
+For all behind-the-scenes automation needs, we recommend that you use Flow Builder. Use Process Builder only if you’re already familiar with using it and you need to edit an existing process. To create a new automated process, use Flow Builder instead.
