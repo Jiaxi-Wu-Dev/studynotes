@@ -514,8 +514,31 @@ Key Terms This Week 📚
     Report Folder
     Report Type
 
-Week 6
+Week 7
 
 Apex
 
 Use Apex when you need more functionality than is available in Flow Builder. Build the more complex functionality as invocable Apex methods. Then call the resulting Apex as an Apex action in the process or as an Apex action element in the flow.
+
+Flow Builder
+
+Use Flow Builder to:
+
+    Automate a guided visual experience.
+    Start a behind-the-scenes business process:
+        When a user clicks something, like a button
+        When a record is created
+        When a record is updated
+        When a record is deleted
+        When a platform event occurs
+        At a specified time and frequency
+
+Process Builder
+
+For all behind-the-scenes automation needs, we recommend that you use Flow Builder. Use Process Builder only if you’re already familiar with using it and you need to edit an existing process. To create a new automated process, use Flow Builder instead.
+
+Process Builder contains some of the same functionality that Flow Builder does. Processes can start when:
+
+    A record is created
+    A record is updated
+    A platform event occurs
