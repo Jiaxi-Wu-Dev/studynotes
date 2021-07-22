@@ -513,3 +513,9 @@ Key Terms This Week 📚
     Summary Report
     Report Folder
     Report Type
+
+Week 6
+
+Apex
+
+Use Apex when you need more functionality than is available in Flow Builder. Build the more complex functionality as invocable Apex methods. Then call the resulting Apex as an Apex action in the process or as an Apex action element in the flow.
