@@ -544,3 +544,31 @@ Process Builder contains some of the same functionality that Flow Builder does. 
     A platform event occurs
 
 For all behind-the-scenes automation needs, we recommend that you use Flow Builder. Use Process Builder only if you’re already familiar with using it and you need to edit an existing process. To create a new automated process, use Flow Builder instead.
+
+Every process consists of a trigger, at least one criteria node, and at least one action. You can configure immediate actions or schedule actions to be executed at a specific time.
+
+The trigger identifies when the process should run. For record change processes, the trigger determines which object and which of the following changes the process should pay attention to.
+
+    Only when a record is created
+    Anytime a record is created or edited
+
+While a process gets one trigger, you can add as many criteria nodes as your heart desires. Each criteria node controls whether or not the process executes the associated actions. If the record doesn’t meet the criteria, the process skips those actions and moves on to the next criteria node in the process.
+
+In each criteria node, you can:
+
+    Set filter conditions.
+    Enter a custom formula. Like in validation rules, the formula must resolve to true or false.
+    Opt out of criteria and always execute the associated actions.
+
+When a criteria node evaluates to true, the process executes the associated actions or waits to execute them at a scheduled time.
+
+    Each immediate action is executed as soon as the criteria evaluates to true.
+    Each scheduled action is executed at the specified time, such as 10 days before the record’s close date or 2 days from now. At the specified time, Salesforce makes sure that the associated criteria node still evaluates to true. If so, the scheduled action is executed. You can schedule actions based on either:
+        A specific date/time field on the record that started the process. For example, a month before an account's service contract expires.
+        The time that the process ran. For example, 3 days from now.
+
+![](/assets/images/2021-07-23-08-35-22.png)
+
+    Salesforce Flow—the product that encompasses building, managing, and running flows and processes.
+    Flow Builder—a point-and-click tool for building flows.
+    Flow—an application that automates a business process by collecting data and doing something in your Salesforce org or an external system.
