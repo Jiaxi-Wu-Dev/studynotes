@@ -592,3 +592,17 @@ After completing this unit, you'll be able to:
     Define an approval process, and list its key components.
     Describe a business process that can be automated using an approval process.
     Set up an approval process to automatically manage when an account changes from a prospect to a new customer.
+
+**Plan out your business process before you try to automate it. Doing so makes it much easier to configure when using one of our automation tools.**
+![](/assets/images/2021-07-23-15-36-53.png)
+![](/assets/images/2021-07-23-15-39-49.png)
+
+Add Custom Fields
+
+Get Started With Flows
+
+Learning Objectives
+After completing this unit, you’ll be able to:
+
+    Explain to your colleagues when it’s appropriate to create a flow.
+    Identify the difference between Salesforce Flow, Flow Builder, and flows.
