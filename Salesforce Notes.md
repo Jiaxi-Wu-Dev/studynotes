@@ -583,3 +583,12 @@ Do something in Salesforce when you have the necessary information (perhaps coll
 
 Integrations
 Connect your flow to an external database by using core actions or Apex actions. Core actions let you make requests without going through the Salesforce server. Flow Builder also has a couple of tie-ins to platform events. Publish platform event messages with a Create Records element. Subscribe to platform events with a Pause element.
+
+Customize How Records Get Approved with Approvals
+
+Learning Objectives
+After completing this unit, you'll be able to:
+
+    Define an approval process, and list its key components.
+    Describe a business process that can be automated using an approval process.
+    Set up an approval process to automatically manage when an account changes from a prospect to a new customer.
