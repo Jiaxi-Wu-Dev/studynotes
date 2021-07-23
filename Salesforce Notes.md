@@ -610,3 +610,7 @@ After completing this unit, you’ll be able to:
 You have a bunch of automation tools at your disposal: formulas, validation rules, flows, processes, and Apex. You also have some more specific tools, like escalation and auto-response rules. Whether you should build a flow depends on what kind of business process you’re trying to automate.
 
 Flows are useful for two major use cases: behind-the-scenes automation and guided visual experiences.
+
+You have a bunch of automation tools at your disposal: formulas, validation rules, flows, processes, and Apex. You also have some more specific tools, like escalation and auto-response rules. Whether you should build a flow depends on what kind of business process you’re trying to automate.
+
+Flows are useful for two major use cases: behind-the-scenes automation and guided visual experiences.
