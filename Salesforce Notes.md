@@ -611,6 +611,9 @@ You have a bunch of automation tools at your disposal: formulas, validation rule
 
 Flows are useful for two major use cases: behind-the-scenes automation and guided visual experiences.
 
-You have a bunch of automation tools at your disposal: formulas, validation rules, flows, processes, and Apex. You also have some more specific tools, like escalation and auto-response rules. Whether you should build a flow depends on what kind of business process you’re trying to automate.
+Don’t start with a flow because it isn’t the simplest solution for the job. Instead, start with a process. If your business process needs more complex functionality than is available in Process Builder, create an autolaunched flow in addition to your process. The autolaunched flow can be called from the process to handle the complex functionality required.
 
-Flows are useful for two major use cases: behind-the-scenes automation and guided visual experiences.
+If your business process requires input from a user, you can use a:
+
+    Screen flow
+    Lightning component
