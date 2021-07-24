@@ -617,3 +617,13 @@ If your business process requires input from a user, you can use a:
 
     Screen flow
     Lightning component
+
+Introducing Flow Interviews
+
+Each time a flow runs, a flow interview starts. A flow interview is an instance of a flow.
+
+Think of Choose-Your-Own-Adventure books. A flow is like the book itself, which provides choices to the reader and instructions for each choice. A flow interview is like the reader. As you read, you make choices and follow the instructions for those choices. Each time you or another person reads the book, you can take a different path through the book and experience a different story.
+
+The same goes for interviews. Based on the data provided for that interview, either by input variables or input components on a screen, each interview can take a different path through the flow and result in different actions being performed.
+
+To see interviews in action, let’s verify the four cases from our test plan.
