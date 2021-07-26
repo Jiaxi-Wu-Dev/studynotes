@@ -627,3 +627,5 @@ Think of Choose-Your-Own-Adventure books. A flow is like the book itself, which 
 The same goes for interviews. Based on the data provided for that interview, either by input variables or input components on a screen, each interview can take a different path through the flow and result in different actions being performed.
 
 To see interviews in action, let’s verify the four cases from our test plan.
+
+Superbadge - Salesforce Admin
