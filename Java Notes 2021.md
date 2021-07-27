@@ -37,4 +37,8 @@ Single Precision occupies 32bits
 
 Double precision occupies 64bits
 
-gi
+![](/assets/images/2021-07-26-21-44-39.png)
+
+Float
+float myMinFloatValue = Float.MIN_VALUE;
+![](/assets/images/2021-07-26-21-50-21.png)
