@@ -6,6 +6,8 @@ Data types are divided into two groups:
     Primitive data types - includes byte, short, int, long, float, double, boolean and char
     Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
 
+Even though there are many numeric types in Java, the most used for numbers are int (for whole numbers) and double (for floating point numbers). However, we will describe them all as you continue to read.
+
 Java Syntax
 ![](/assets/images/2021-07-26-16-07-00.png)
 
@@ -57,3 +59,7 @@ float myFloatNum = 5.99f;
 char myLetter = 'D';
 boolean myBool = true;
 String myText = "Hello";
+
+Char - The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+char myGrade = 'B';
+System.out.println(myGrade);
