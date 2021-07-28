@@ -18,6 +18,29 @@ The main difference between primitive and non-primitive data types are:
     A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
     The size of a primitive type depends on the data type, while non-primitive types have all the same size.
 
+Java Type Casting
+
+Type casting is when you assign a value of one primitive data type to another type.
+
+In Java, there are two types of casting:
+
+    Widening Casting (automatically) - converting a smaller type to a larger type size
+    byte -> short -> char -> int -> long -> float -> double
+
+    Narrowing Casting (manually) - converting a larger type to a smaller size type
+    double -> float -> long -> int -> char -> short -> byte
+
+public class Main {
+public static void main(String[] args) {
+int myInt = 9;
+double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);      // Outputs 9
+    System.out.println(myDouble);   // Outputs 9.0
+
+}
+}
+
 Java Syntax
 ![](/assets/images/2021-07-26-16-07-00.png)
 
