@@ -96,3 +96,6 @@ String myText = "Hello";
 Char - The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
 char myGrade = 'B';
 System.out.println(myGrade);
+
+Math.max(x,y)
+The Math.max(x,y) method can be used to find the highest value of x and y:
