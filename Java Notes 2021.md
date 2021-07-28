@@ -42,3 +42,13 @@ Double precision occupies 64bits
 Float
 float myMinFloatValue = Float.MIN_VALUE;
 ![](/assets/images/2021-07-26-21-50-21.png)
+
+Final Variables - final keyword if you dont want others or yourself to overwrite existing values
+final int myNum = 15;
+
+Examples of Variable types
+int myNum = 5;
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+String myText = "Hello";
