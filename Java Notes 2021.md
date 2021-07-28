@@ -1,6 +1,11 @@
 Definitions
 Package - a way to organize your java projects, for now consider them as folders with learnprogramming in our example being a subfolder of academy. Companies use their domain names reversed.
 
+Data types are divided into two groups:
+
+    Primitive data types - includes byte, short, int, long, float, double, boolean and char
+    Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+
 Java Syntax
 ![](/assets/images/2021-07-26-16-07-00.png)
 
