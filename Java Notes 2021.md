@@ -8,6 +8,16 @@ Data types are divided into two groups:
 
 Even though there are many numeric types in Java, the most used for numbers are int (for whole numbers) and double (for floating point numbers). However, we will describe them all as you continue to read.
 
+Non-primitive data types are called reference types because they refer to objects.
+
+The main difference between primitive and non-primitive data types are:
+
+    Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+    Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+    A primitive type has always a value, while non-primitive types can be null.
+    A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+    The size of a primitive type depends on the data type, while non-primitive types have all the same size.
+
 Java Syntax
 ![](/assets/images/2021-07-26-16-07-00.png)
 
