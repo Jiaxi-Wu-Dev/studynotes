@@ -99,3 +99,31 @@ System.out.println(myGrade);
 
 Math.max(x,y)
 The Math.max(x,y) method can be used to find the highest value of x and y:
+Math.max(5, 10);
+
+Math.min(x,y)
+The Math.min(x,y) method can be used to find the lowest value of x and y:
+Math.min(5, 10);
+
+Math.sqrt(x)
+The Math.sqrt(x) method returns the square root of x:
+Math.sqrt(64);
+
+Math.abs(x)
+The Math.abs(x) method returns the absolute (positive) value of x:
+Math.abs(-4.7);
+
+Random Numbers
+Math.random() returns a random number between 0.0 (inclusive), and 1.0 (exclusive):
+Math.random();
+
+The else Statement
+
+Use the else statement to specify a block of code to be executed if the condition is false.
+Syntax
+
+if (condition) {
+// block of code to be executed if the condition is true
+} else {
+// block of code to be executed if the condition is false
+}
