@@ -127,5 +127,3 @@ if (condition) {
 } else {
 // block of code to be executed if the condition is false
 }
-
-Rated Distribution of Accounts by State
